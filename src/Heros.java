@@ -1,15 +1,18 @@
+import javafx.animation.TranslateTransition;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.util.Duration;
 import org.jetbrains.annotations.NotNull;
 
 public class Heros {
     public Integer x,y;
-    public ImageView im;
+    public ImageView sprite;
 
-    public Heros(Integer x, Integer y, ImageView im) {
+    public Heros(Integer x, Integer y, ImageView sprite) {
         this.x = x;
         this.y = y;
-        this.im = im;
+        this.sprite = sprite;
     }
 
     protected Integer getX() {
@@ -20,8 +23,8 @@ public class Heros {
         return y;
     }
 
-    public ImageView getIm(){
-        return im;
+    public ImageView getSprite(){
+        return sprite;
     }
 
     public void setX(Integer x) {
@@ -32,17 +35,22 @@ public class Heros {
         this.y = y;
     }
 
-    public void setIm(ImageView im) {
-        this.im = im;
+    public void setSprite(ImageView sprite) {
+        this.sprite = sprite;
     }
 
     public void updateViewHerosImage(Camera camera, long l){
-        getIm().setX(x-camera.getX());
-        getIm().setY(y-camera.getY());
-
+        TranslateTransition transition = new TranslateTransition();
         camera.setX(getX()+camera.getX());
         camera.setY(getY()+camera.getY());
 
-        int index = (int) (((l/1e6)/250) % 6);
+        int index = (int) (l/1.5e8) % 6;
+        getSprite().setViewport(new Rectangle2D(85*index, 0, 80, 100));
+
+        transition.setByX(5);
+        transition.setDuration(Duration.millis(30));
+        transition.setNode(getSprite());
+        transition.play();
+
     }
 }
