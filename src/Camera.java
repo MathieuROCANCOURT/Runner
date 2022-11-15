@@ -1,5 +1,5 @@
 public class Camera {
-    protected Integer x, y;
+    public Integer x, y;
 
     public Camera(Integer x, Integer y){
         this.x = x;
