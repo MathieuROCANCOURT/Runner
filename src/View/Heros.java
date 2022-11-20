@@ -1,3 +1,6 @@
+package View;
+
+import javafx.animation.ScaleTransition;
 import javafx.animation.TranslateTransition;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.image.Image;
@@ -39,18 +42,34 @@ public class Heros {
         this.sprite = sprite;
     }
 
-    public void updateViewHerosImage(Camera camera, long l){
+    public void updateViewHerosImage(long l){
         TranslateTransition transition = new TranslateTransition();
-        camera.setX(getX()+camera.getX());
-        camera.setY(getY()+camera.getY());
 
         int index = (int) (l/1.5e8) % 6;
         getSprite().setViewport(new Rectangle2D(85*index, 0, 80, 100));
 
-        transition.setByX(5);
+        getSprite().setX(getSprite().getX() + 3);
+
+        transition.setByX(-2);
         transition.setDuration(Duration.millis(30));
         transition.setNode(getSprite());
         transition.play();
+
+
+        /*int index2 = (int) (l/1e8) % 2;
+        System.out.println(index2);
+        getSprite().setViewport(new Rectangle2D(85*index2, 150, 80, 100));
+
+        transition2.setByY(3);
+        transition2.setDuration(Duration.millis(30));
+        transition2.setNode(getSprite());
+        transition2.play();
+
+        transition3.setByY(-3);
+        transition3.setDuration(Duration.millis(30));
+        transition3.setNode(getSprite());
+        transition2.stop();
+        transition3.play();*/
 
     }
 }

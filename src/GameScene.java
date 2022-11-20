@@ -2,20 +2,17 @@ import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
-public class GameScene extends Scene{
-    private static final Scene Scene = new Scene(new Pane(new Group()), 600, 400,true);
-    Camera c;
-    
-    public GameScene(Camera c){
-        super(Scene.getRoot());
-        this.c = c;
+public class GameScene{
+    //private static final Scene Scene = new Scene(new Pane(new Group()), 600, 400,true);
+    Stage s;
+
+    public GameScene( Stage s) {
+        this.s = s;
     }
 
-    public Camera getC() {
-        return c;
+    public Stage getS() {
+        return s;
     }
-
-
-
 }

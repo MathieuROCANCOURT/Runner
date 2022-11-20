@@ -1,12 +1,13 @@
+import View.Heros;
+import View.ViewManager;
 import javafx.animation.AnimationTimer;
+import javafx.animation.TranslateTransition;
 import javafx.application.Application;
 import javafx.geometry.Rectangle2D;
-import javafx.scene.Group;
-import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.*;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 
 public class Main extends Application {
@@ -17,15 +18,24 @@ public class Main extends Application {
 
     // Initialisation de l'image du personnage
     ImageView sprite = new ImageView(new Image("file:./img/heros.png"));
+    ViewManager view = new ViewManager();
     // Créer le personnage
     Heros personnage = new Heros(400, 200, sprite);
+
+    TranslateTransition transition = new TranslateTransition();
 
     AnimationTimer Update = new AnimationTimer() {
         @Override
         public void handle(long l) {
             // Update Image view
-            personnage.updateViewHerosImage(action, l);
+            personnage.updateViewHerosImage(l);
 
+            view.moveBackground(personnage);
+
+            transition.setByX(-3);
+            transition.setDuration(Duration.millis(20));
+            transition.setNode(view.getAnchorPane());
+            transition.play();
 
         }
     };
@@ -34,15 +44,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         try {
-            Group root = new Group();
-            Pane pane = new Pane(root);
-            Scene theScene = new Scene(pane, 1200, 400, true);
-
-
             // Image Héros
             // Rectangle2D(minX, minY, width, height)
             sprite.setViewport(new Rectangle2D(20, 0, 65, 100));
-            root.getChildren().add(sprite);
+            view.getAnchorPane().getChildren().add(sprite);
 
             // Modifier position du personnage
             sprite.setX(20);
@@ -53,8 +58,7 @@ public class Main extends Application {
 
 
             // Affichage scene
-            pane.getStylesheets().add("style.css");
-            primaryStage.setScene(theScene);
+            primaryStage.setScene(view.getScene());
 
             primaryStage.show();
             Update.start();

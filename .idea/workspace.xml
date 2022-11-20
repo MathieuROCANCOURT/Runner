@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c9d3cf-960d-4a56-879d-aa81e6912257" name="Changes" comment="Background repeat x and view Heros">
+    <list default="true" id="07c9d3cf-960d-4a56-879d-aa81e6912257" name="Changes" comment="Heros run but exit the windows">
+      <change afterPath="$PROJECT_DIR$/src/View/ViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameScene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Heros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desert.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/desert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,14 +22,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maths/Desktop/ENSEA/2AG1TD1TP1/POO/TP/javafx-sdk-19/lib&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maths/Desktop/ENSEA/2AG1TD1TP1/POO/TP/Runner/out/production/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -57,9 +63,13 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\out\production\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\src" />
+      <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\src\View" />
       <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\img" />
+      <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
@@ -99,7 +109,13 @@
       <workItem from="1668088617082" duration="2060000" />
       <workItem from="1668360251550" duration="6011000" />
       <workItem from="1668504608934" duration="5502000" />
-      <workItem from="1668543733811" duration="4954000" />
+      <workItem from="1668543733811" duration="6901000" />
+      <workItem from="1668551848000" duration="916000" />
+      <workItem from="1668605901552" duration="15927000" />
+      <workItem from="1668680662455" duration="1323000" />
+      <workItem from="1668689135845" duration="3705000" />
+      <workItem from="1668698389219" duration="12418000" />
+      <workItem from="1668944987498" duration="1742000" />
     </task>
     <task id="LOCAL-00001" summary="1st Commit">
       <created>1666087346942</created>
@@ -122,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668509296413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Heros run but exit the windows">
+      <created>1668549228876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668549228876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +166,7 @@
     <MESSAGE value="1st Commit" />
     <MESSAGE value="2nd Commit" />
     <MESSAGE value="Background repeat x and view Heros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Background repeat x and view Heros" />
+    <MESSAGE value="Heros run but exit the windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heros run but exit the windows" />
   </component>
 </project>
