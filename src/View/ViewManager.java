@@ -63,7 +63,7 @@ public class ViewManager {
     }
 
     public void moveBackground(Heros heros){
-        if ((heros.getSprite().getX() >= i* 1200 + 200*(i-1))){
+        if ((heros.getSprite().getX() >= i* 1200 + 500*(i-1))){
             if ((i%3) == 1) {
                 gridPane.setTranslateX((int) gridPane.getTranslateX() + 800*3);
             } else if ((i%3 == 2)) {

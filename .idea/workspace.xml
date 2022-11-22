@@ -4,15 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c9d3cf-960d-4a56-879d-aa81e6912257" name="Changes" comment="Heros run but exit the windows">
-      <change afterPath="$PROJECT_DIR$/src/View/ViewManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" />
+    <list default="true" id="07c9d3cf-960d-4a56-879d-aa81e6912257" name="Changes" comment="Heros run in the windows to 1 minutes with background update">
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.graphics/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaFx/javafx-sdk-19/src.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Heros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desert.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/desert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ViewManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,29 +77,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maths/Desktop/ENSEA/2AG1TD1TP1/POO/TP/Runner/out/production/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/maths/Desktop/ENSEA/2AG1TD1TP1/POO/TP/Runner/JavaFx/javafx-sdk-19/lib",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner" />
       <recent name="C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\Runner\out\production\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +116,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Runner" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\maths\Desktop\ENSEA\2AG1TD1TP1\POO\TP\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;.\JavaFx\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,7 +152,9 @@
       <workItem from="1668680662455" duration="1323000" />
       <workItem from="1668689135845" duration="3705000" />
       <workItem from="1668698389219" duration="12418000" />
-      <workItem from="1668944987498" duration="1742000" />
+      <workItem from="1668944987498" duration="1881000" />
+      <workItem from="1669028307297" duration="2475000" />
+      <workItem from="1669104310514" duration="4385000" />
     </task>
     <task id="LOCAL-00001" summary="1st Commit">
       <created>1666087346942</created>
@@ -145,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668549228876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Heros run in the windows to 1 minutes with background update">
+      <created>1668946862410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668946862410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +213,7 @@
     <MESSAGE value="2nd Commit" />
     <MESSAGE value="Background repeat x and view Heros" />
     <MESSAGE value="Heros run but exit the windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heros run but exit the windows" />
+    <MESSAGE value="Heros run in the windows to 1 minutes with background update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heros run in the windows to 1 minutes with background update" />
   </component>
 </project>
